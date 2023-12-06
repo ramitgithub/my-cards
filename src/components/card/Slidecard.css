@@ -1,0 +1,49 @@
+.container {
+    width: 1024px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.slidecard {
+    position: relative;
+    width: 350px;
+    border: 2px solid rgb(0, 195, 255);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+.crossImage{
+    position: absolute;
+    top: -8px;
+    right: -4px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+.crossImage img{
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.my-image {
+    height: auto;
+    width: 160px;
+}
+
+.my-image img {
+    width: 100%;
+}
+
+.loading {
+    justify-content: center;
+    align-items: center;
+}
